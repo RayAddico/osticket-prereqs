@@ -23,11 +23,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-(Create a Virtual Machine in Azure)
+(Set Up Azure Enviroment)
 
 - Item 1 - Create a Resource Group in Azure
-- Item 2 -
-- Item 3
+- a)if you dont have an azure account ,get signed up at Azure portal.
+- b)Resource must be name appropriately for easy identification.
+- Item 2 - Create a Windows 10 Virtual Machine, 4vCPUs
+- a)Name VMs (os-Ticket)
+- b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
+- Item 3 - INstallation
+- a)Install and Enable IIS in windows from control Panel or CGI AND Common HTTP Features.
+- b)World Wide Web Services -> Application Development Features-
+-  [X] CGI
+   [X] Common HTTP Features
+-Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
+
 - Item 4
 - Item 5
 
