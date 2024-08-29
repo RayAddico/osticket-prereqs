@@ -43,8 +43,11 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
+
 Password1
+
 Open IIS as an Admin
+
 Register PHP from within IIS
 Reload IIS (Open IIS, Stop and Start the server)
 Install osTicket v1.15.8
