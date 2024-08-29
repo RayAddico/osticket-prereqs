@@ -24,10 +24,11 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - Stage 1 - Create a Resource Group in Azure
 - a)if you dont have an azure account ,get signed up at Azure portal.
 - b)Resource must be name appropriately for easy identification.
--
+
 - Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
 - a)Name VMs (os-Ticket)
 - b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
+
 - Stage 3 - Installation
 Install / Enable IIS in Windows WITH
 CGI and Common HTTP Features
