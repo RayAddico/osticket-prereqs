@@ -24,10 +24,12 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - Stage 1 - Create a Resource Group in Azure
 - a)if you dont have an azure account ,get signed up at Azure portal.
 - b)Resource must be name appropriately for easy identification.
+-
 - Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
 - a)Name VMs (os-Ticket)
 - b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
 - Stage 3 - INstallation
+-
 - a)Install and Enable IIS in windows from control Panel or CGI AND Common HTTP Features.
 - b)World Wide Web Services -> Application Development Features-
 -  [X] CGI
@@ -36,28 +38,42 @@ This walkthrough outlines the prerequisites and installation of the open-source 
    [X] IIS Management Console
 - From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 - From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+-
 - Create the directory C:\PHP
 - From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 - From the Installation Files, download and install VC_redist.x86.exe.
+-
 - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 Typical Setup ->
+
 Launch Configuration Wizard (after install) ->
+
 Standard Configuration ->
 
 Password1
 
 Open IIS as an Admin
 
-Register PHP from within IIS
-Reload IIS (Open IIS, Stop and Start the server)
-Install osTicket v1.15.8
-Download osTicket from the Installation Files Folder
-Extract and copy “upload” folder to c:\inetpub\wwwroot
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-Reload IIS (Open IIS, Stop and Start the server)
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
-Note that some extensions are not enabled
+Register PHP from within IIS >
+
+Reload IIS (Open IIS, Stop and Start the server)>
+
+Install osTicket v1.15.8.
+
+Download osTicket from the Installation Files Folder>
+
+Extract and copy “upload” folder to c:\inetpub\wwwroot>
+
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”>
+
+Reload IIS (Open IIS, Stop and Start the server)>
+
+Go to sites -> Default -> osTicket>
+
+On the right, click “Browse *:80”>
+
+Note that some extensions are not enabled>
+
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
