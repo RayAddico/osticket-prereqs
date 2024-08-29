@@ -28,23 +28,16 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
 - a)Name VMs (os-Ticket)
 - b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
-- Stage 3 - INstallation
--
-- a)Install and Enable IIS in windows from control Panel or CGI AND Common HTTP Features.
-- b)World Wide Web Services -> Application Development Features-
--  [X] CGI
-   [X] Common HTTP Features
--Internet Information Services -> Web Management Tools -> IIS Management Console
-   [X] IIS Management Console
-- From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-- From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Stage 3 - Installation
+Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features
+World Wide Web Services -> Application Development Features ->
+[X] CGI
+[X] Common HTTP Features
+AND IIS Management Console
+Internet Information Services -> Web Management Tools -> IIS Management Console
+	[X] IIS Management Console
 
-- Create the directory C:\PHP
-- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-- From the Installation Files, download and install VC_redist.x86.exe.
--
-- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-Typical Setup ->
 
 
 - Stage 4 - Post-installation configuration
