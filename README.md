@@ -82,19 +82,7 @@ MySQL Username: root
 MySQL Password: Password1 
 Click “Install Now!”
 - Stage 4 - Post-installation configuration
-- Configure Roles
-a)Admin Panel -> Agents -> Roles
-b)Supreme Admin
-Configure Departments
-a)Admin Panel -> Agents -> Departments
-b)System Administrators
-Configure Teams
-a)Admin Panel -> Agents -> Teams
- i.Level I Support
-ii.Level II Support
-Allow anyone to create tickets
-a)Admin Panel -> Settings -> User Settings
-b)Registration Required: Require registration and login to create tickets 
+   
 
 - Stage 5
 
