@@ -79,7 +79,7 @@ Create a database called “osTicket”
 Continue Setting up osticket in the browser
 MySQL Database: osTicket
 MySQL Username: root
-MySQL Password: Password1
+MySQL Password: Password1 
 Click “Install Now!”
 - Stage 4 - Post-installation configuration
 - Configure Roles
