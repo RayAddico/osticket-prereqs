@@ -27,52 +27,50 @@ OS Tickets Repository
 
  - osTicket- Download the latest version from the osTicket website
 
-- <h2>Create a Windows 10 Virtual Machine, 4vCPUs
-- 
-- a)Name VMs (os-Ticket)
-- 
-- b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
+- <h2>Create a Windows 10 Virtual Machine in Azure
 
-  
+- Create a Resource Group
+- a)Resource groups are logical containers for Azure resources. Name it appropriately for easy identification.
+- Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
+- a)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
 
-<h2>Installation Steps</h2>
+  <h2>Installation Steps</h2>
+  <h2>Install IIS with CGI and Common HTTP Features:
+- Navigate to Windows Features and select Internet Information Services (IIS).
+- Expand World Wide Web Services.
+- Go to Application Development Features and enable:
+- Check [X] CGI
+- Ensure Common HTTP Features are selected.
+  <h2>Enable IIS Management Console:
+- Under Internet Information Services, expand Web Management Tools.
+- Check [X] IIS Management Console
+
+  <h2> Download and Install PHP Manager for IIS:
+- Locate the installation file PHPManagerForIIS_V1.5.0.msi
+- Run the installer to install PHP Manager for IIS.
+
+  <h2>Download and Install the Rewrite Module:
+- Locate the installation file rewrite_amd64_en-US.msi.
+- Run the installer to install the Rewrite Module for IIS.
+
+  <h2>Create the PHP Directory:
+- Create a directory at C:\PHP.
+
+  <h2>Download and Set Up PHP:
+- Locate the PHP installation file php-7.3.8-nts-Win32-VC15-x86.zip.
+- Unzip the contents into the C:\PHP directory.
+
+ <h2>Install Visual C++ Redistributable:
+- Locate the file VC_redist.x86.exe from the Installation Files.
+- Run the installer to install the Visual C++ Redistributable
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure Roles
-Admin Panel -> Agents -> Roles
-Supreme Admin
-Configure Departments
-Admin Panel -> Agents -> Departments
-System Administrators
-Configure Teams
-Admin Panel -> Agents -> Teams
-Level I Support
-Level II Support
-Allow anyone to create tickets
-Admin Panel -> Settings -> User Settings
-Registration Required: Require registration and login to create tickets 
-Configure Agents (workers)
-Admin Panel -> Agents -> Add New
-Jane
-John
-Configure Users (customers)
-Agent Panel -> Users -> Add New
-Karen
-Ken
-Configure SLA
-Admin Panel -> Manage -> SLA
-Sev-A (1 hour, 24/7)
-Sev-B (4 hours, 24/7)
-Sev-C (8 hours, business hours)
-Configure Help Topics
-Admin Panel -> Manage -> Help Topics
-Business Critical Outage
-Personal Computer Issues
-Equipment Request
-Password Reset
+
 
 <br />
 
