@@ -19,8 +19,11 @@ Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 
 <h2>List of Prerequisites</h2>
 a)Web Server- You need a web server such as IIS.
+
 b)PHP- osTicket requires PHP to run.
+
 c)Database- MySQL is commonly used for the database.
+
 d)osTicket- Download the latest version from the osTicket website
 
 - Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
