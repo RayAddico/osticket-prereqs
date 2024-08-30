@@ -5,8 +5,7 @@ OS Tickets Repository
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This walkthrough outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
+Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,11 +18,10 @@ This walkthrough outlines the prerequisites and installation of the open-source 
 - >Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-(Set Up Azure Enviroment)
-
-- Stage 1 - Create a Resource Group in Azure
-- a)if you dont have an azure account ,get signed up at Azure portal.
-- b)Resource must be name appropriately for easy identification.
+a)Web Server- You need a web server such as IIS.
+b)PHP- osTicket requires PHP to run.
+c)Database- MySQL is commonly used for the database.
+d)osTicket- Download the latest version from the osTicket website
 
 - Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
 - a)Name VMs (os-Ticket)
