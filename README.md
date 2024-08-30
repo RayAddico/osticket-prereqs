@@ -5,7 +5,7 @@ OS Tickets Repository
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
+ Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 
 <h2>Environments and Technologies Used</h2>
 
@@ -18,34 +18,22 @@ Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 - >Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-a)Web Server- You need a web server such as IIS.
 
-b)PHP- osTicket requires PHP to run.
+ - Web Server- You need a web server such as IIS.
 
-c)Database- MySQL is commonly used for the database.
+ - PHP- osTicket requires PHP to run.
 
-d)osTicket- Download the latest version from the osTicket website
+ - Database- MySQL is commonly used for the database.
 
-- Stage 2 - Create a Windows 10 Virtual Machine, 4vCPUs
+ - osTicket- Download the latest version from the osTicket website
+
+- <h2>Create a Windows 10 Virtual Machine, 4vCPUs
+- 
 - a)Name VMs (os-Ticket)
+- 
 - b)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
 
-- Stage 3 - Installation
-Install / Enable IIS in Windows WITH
-CGI and Common HTTP Features
-World Wide Web Services -> Application Development Features ->
-[X] CGI
-[X] Common HTTP Features
-AND IIS Management Console
-Internet Information Services -> Web Management Tools -> IIS Management Console
-	[X] IIS Management Console
-
-
-
-- Stage 4 - Post-installation configuration
-   
-
-- Stage 5
+  
 
 <h2>Installation Steps</h2>
 
