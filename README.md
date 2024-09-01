@@ -4,7 +4,7 @@ OS Tickets Repository
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - Installation and Prerequisites</h1>
  Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 
 <h2>Environments and Technologies Used</h2>
