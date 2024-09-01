@@ -53,16 +53,7 @@ OS Tickets Repository
 - Locate the installation file rewrite_amd64_en-US.msi.
 - Run the installer to install the Rewrite Module for IIS.
 
-  <h2>Create the PHP Directory:
-- Create a directory at C:\PHP.
 
-  <h2>Download and Set Up PHP:
-- Locate the PHP installation file php-7.3.8-nts-Win32-VC15-x86.zip.
-- Unzip the contents into the C:\PHP directory.
-
- <h2>Install Visual C++ Redistributable:
-- Locate the file VC_redist.x86.exe from the Installation Files.
-- Run the installer to install the Visual C++ Redistributable
 
 
 
