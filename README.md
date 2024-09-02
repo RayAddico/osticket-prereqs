@@ -5,7 +5,9 @@ OS Tickets Repository
 </p>
 
 <h1>osTicket - Installation and Prerequisites</h1>
- Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
+osTicket is an open-source, web-based customer support ticket system that manages customer support by organizing and tracking requests through tickets, ensuring efficient and effective handling of customer issues.
+
+# Walkthrough: Setting Up osTicket on Windows 10 with a Web Server Environment
 
 <h2>Environments and Technologies Used</h2>
 
@@ -18,21 +20,21 @@ OS Tickets Repository
 - >Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
+ 
+- Microsoft Azure
 
- - Web Server- You need a web server such as IIS.
+- Virtual Machine
 
- - PHP- osTicket requires PHP to run.
-
- - Database- MySQL is commonly used for the database.
-
- - osTicket- Download the latest version from the osTicket website
+- osTicket Installation Files
 
 - <h2>Create a Windows 10 Virtual Machine in Azure
 
 - Create a Resource Group
 - a)Resource groups are logical containers for Azure resources. Name it appropriately for easy identification.
+- ![RG](https://github.com/user-attachments/assets/92a84fa3-e6af-4d80-a950-0d95a68a4a63)
 - Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
 - a)Set a Username for VMs and Password.(Note:username and Password must be easy to identify)
+![vm](https://github.com/user-attachments/assets/e66dfc14-018e-4582-8d57-0eb218116756)
 
   <h2>Installation Steps</h2>
   <h2>Install IIS with CGI and Common HTTP Features:
