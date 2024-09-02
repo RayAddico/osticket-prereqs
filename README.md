@@ -41,6 +41,7 @@ osTicket is an open-source, web-based customer support ticket system that manage
 - Navigate to Windows Features and select Internet Information Services (IIS).
 - Expand World Wide Web Services.
 - Go to Application Development Features and enable:
+- ![ppp](https://github.com/user-attachments/assets/dfe0c5db-2683-43ca-aefd-f477840bfdb9)
 - Check [X] CGI
 - Ensure Common HTTP Features are selected.
   <h2>Enable IIS Management Console:
@@ -50,6 +51,7 @@ osTicket is an open-source, web-based customer support ticket system that manage
   <h2> Download and Install PHP Manager for IIS:
 - Locate the installation file PHPManagerForIIS_V1.5.0.msi
 - Run the installer to install PHP Manager for IIS.
+
 
   <h2>Download and Install the Rewrite Module:
 - Locate the installation file rewrite_amd64_en-US.msi.
